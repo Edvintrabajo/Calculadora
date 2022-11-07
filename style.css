@@ -1,0 +1,95 @@
+body {
+    background-color: aliceblue;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+.contenedor {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora {
+    background-color: #202020;
+    padding: 5px;
+}
+
+.output {
+    color: #000000;
+    text-align: right;
+    margin-right: 10px;
+    height: 100px;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+#anterior {
+    font-size: 20px;
+}
+
+.memoria {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.memoria button {
+    background-color: #202020;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.memoria button:hover {
+    background-color: #323232;
+}
+
+.botones button {
+    background-color: #323232;
+    color: #ffffff;
+    width: 75px;
+    height: 65px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1.5px solid #202020;
+    cursor: pointer;
+}
+
+.botones button:hover {
+    background-color: #202020;
+}
+
+#igual {
+    background-color:dodgerblue;
+    color: #000000;
+}
+
+#igual:hover {
+    background-color: aqua;
+}
+
+
+.ventana-memoria {
+    position: relative;
+    top: -170px;
+    right: -40px;
+    text-align: center;
+    width: 100px;
+    height: 120px;
+    background-color: #202020;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.ventana-memoria p {
+    font-size: 16px;
+}

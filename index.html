@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JS</title>
+
+    <!-- LINK CSS-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- ICONS GOOGLE-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+
+    <div class="contenedor">
+        <div class="calculadora">
+            <div class="output">
+                <div id="anterior"></div>
+                <div id="actual"></div>
+            </div>
+            <div class="memoria">
+                <button id="memory-clear">MC</button>
+                <button id="memory-retrieve">MR</button>
+                <button id="memory-add">M+</button>
+                <button id="memory-less">M-</button>
+                <button id="memory-set">MS</button>
+                <button id="memory-history">M</button>
+            </div>
+            <div class="botones">
+                <div class="row">
+                    <button id="porcentaje">%</button>
+                    <button id="clear-error">CE</button>
+                    <button id="clear">C</button>
+                    <button id="delete"><span class="material-symbols-outlined">backspace</span></button>
+                </div>
+                <div class="row">
+                    <button id="derivada">1/x</button>
+                    <button id="potencia">x^2</button>
+                    <button id="raiz-cuadrada"><i class="fa-solid fa-square-root-variable"></i></button>
+                    <button id="division"><i class="fa-solid fa-divide"></i></button>
+                </div>
+                <div class="row">
+                    <button class="numero" id="7">7</button>
+                    <button class="numero" id="8">8</button>
+                    <button class="numero" id="9">9</button>
+                    <button class="signo" id="multiplicacion">*</button>
+                </div>
+                <div class="row">
+                    <button class="numero" id="4">4</button>
+                    <button class="numero" id="5">5</button>
+                    <button class="numero" id="6">6</button>
+                    <button class="signo" id="restar">-</button>
+                </div>
+                <div class="row">
+                    <button class="numero" id="1">1</button>
+                    <button class="numero" id="2">2</button>
+                    <button class="numero" id="3">3</button>
+                    <button class="signo" id="sumar">+</button>
+                </div>
+                <div class="row">
+                    <button id="cambiarsigno">+/-</button>
+                    <button class="numero" id="0">0</button>
+                    <button class="signo" id="coma">.</button>
+                    <button id="igual">=</button>
+                </div>
+            </div>
+        </div>
+        <div class="ventana-memoria" style="display: none">
+            <h4 class="titulo-memoria">Memoria</p>
+            <hr>
+            <p id="valor-memoria"></p>
+        </div>
+    </div>
+
+    <!-- LINK FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/9f226d1cbb.js" crossorigin="anonymous"></script>
+
+    <!-- LINK JAVASCRIPT-->
+    <script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
